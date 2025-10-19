@@ -1017,7 +1017,15 @@ input {
     }
 
 
+    .nav-btn {
+        display: none;
 
+
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
 
     .home-img {
         width: 260px;
