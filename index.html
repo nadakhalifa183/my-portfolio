@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/solid.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav-container scrolled">
+            <a href="index.html" class="logo">
+                <div class="tag">&lt;</div>
+                Nada
+                <div class="tag">/</div>
+                Khalifa
+                <div class="tag">&gt;</div>
+
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link">portfolio</a>
+
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- <div class="nav-close">
+                    <i class="ui uil-times"></i>
+                </div> -->
+
+            </div>
+
+            <div class="nav-btn">
+                <a href="https://wa.me/201288944543?text=Thanks for reaching out." target="_blank"
+                    class="nav-link-btn btn">Let's Talk</a>
+
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="uil uil-bars"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home" id="home">
+            <div class="home-container container grid">
+                <div class="home-content">
+                    <span class="home-subtitle"> welcome to my world</span>
+                    <h1 class="home-title"> Hi, I'm Nada Khalifa <span id="auto-type"></span> </h1>
+                    <div class="cv-btn">
+                        <a href="https://drive.google.com/file/d/1fD3h23ElJBnziWmYtuCYyw1XrlmfD-TR/view?usp=sharing"
+                            target="_blank" class="cv-link-btn btn">Check Resume</a>
+
+                    </div>
+                </div>
+                <img src="images/nada0.jpg" alt="" class="home-img">
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section section-background" id="about">
+            <div class="about-container container grid">
+                <!-- <img src="images/nada.png" alt="" class="about-img"> -->
+
+                <div class="about-content">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        Eager and adaptable, I excel in environments requiring the ability to effectively communicate
+                        and collaborate.As a full-stack developer, I work with modern technologies across the entire
+                        development spectrum.
+                        From designing intuitive user interfaces with ReactJS and Bootstrap to building scalable backend
+                        solutions with C#
+                        and database management, I bring ideas to life with clean, efficient code.
+                    </p>
+
+                    <div class="tabs-btns">
+                        <span class="tabs-btn tab-active" data-target="#skills">Main Skills</span>
+                        <span class="tabs-btn" data-target="#award">Award</span>
+                        <span class="tabs-btn" data-target="#experience">Experience</span>
+                        <span class="tabs-btn" data-target="#education">Education & Certificatio</span>
+                    </div>
+                    <div class="tabs-content">
+                        <div class="tabs-item tab-active" data-content id="skills">
+                            <div class="tabs-data grid">
+                                <P class="tabs-description">
+                                    <span>User experiens design</span> - UI/UX
+                                    <Span>Delight the user and make it work.</Span>
+                                </P>
+                                <P class="tabs-description">
+                                    <span>Web and user interface designer</span> - Devlopment
+                                    <Span>Websites, web experiences, ....</Span>
+                                </P>
+                                <P class="tabs-description">
+                                    <span>Interaction design</span> - Animation
+                                    <Span>I like to move it to move it.</Span>
+                                </P>
+                            </div>
+                        </div>
+                        <div class="tabs-item" data-content id="award">
+                            <div class="tabs-data grid">
+                                <P class="tabs-description">
+                                    <span>Awwards.com</span> - Winner
+                                    <Span>2024 - 2025</Span>
+                                </P>
+                                <P class="tabs-description">
+                                    <span>Css design awards</span> - Winner
+                                    <Span>2024 - 2025</Span>
+                                </P>
+                                <P class="tabs-description">
+                                    <span>Design nominees</span> - Site of the day
+                                    <Span>2024 - 2025</Span>
+                                </P>
+                            </div>
+                        </div>
+                        <div class="tabs-item" data-content id="experience">
+                            <div class="tabs-data grid">
+                                <P class="tabs-description">
+                                    <span>Sr. Frontend Engineer</span> - Google
+                                    <Span>2025 - Current</Span>
+                                </P>
+                                <P class="tabs-description">
+                                    <span>Frontend Engineer</span> - Microsoft
+                                    <Span>2023 - 2024</Span>
+                                </P>
+                                <P class="tabs-description">
+                                    <span>Software Engineer</span> - Alibaba
+                                    <Span>2022 - 2023</Span>
+                                </P>
+                            </div>
+                        </div>
+                        <div class="tabs-item" data-content id="education">
+                            <div class="tabs-data grid">
+                                <P class="tabs-description">
+                                    <span>BSe in CSE</span> - Faculty of computers and information
+                                    <Span>2024</Span>
+                                </P>
+                                <P class="tabs-description">
+                                    <span>Diploma in computer science </span> - Menofia University
+                                    <Span>2027</Span>
+                                </P>
+                                <P class="tabs-description">
+                                    <span>Grafic Designer</span> - ABC institute
+                                    <Span>2022</Span>
+                                </P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+        <!--=============== Skills  ==============-->
+
+        <section class="skills section section-background" id="skills">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-description"> Building digital experiences requires the right tools.
+                Here's my arsenal of technologies that help me transform concepts into functional,
+                beautiful applications.</p>
+            <div class="skills-container container grid">
+                <div class="skill-item">
+                    <div class="item-title">Frontend</div>
+                    <div class="mini-item-container">
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/download.svg" alt="" class="item-icon">
+
+                            </div>
+                            ReactJs
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/html5-badge-h-solo.png" alt="" class="item-icon">
+
+                            </div>
+                            HTML
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/CSS3_logo_and_wordmark.svg.png" alt="" class="item-icon">
+
+                            </div>
+                            CSS
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/JavaScript-logo.png" alt="" class="item-icon">
+
+                            </div>
+                            JavaScript
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/bootstrap-logo-shadow.png" alt="" class="item-icon">
+
+                            </div>
+                            Bootstrap
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="skill-item">
+                    <div class="item-title">Backend</div>
+                    <div class="mini-item-container">
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/dart.png" alt="" class="item-icon">
+
+                            </div>
+                            Dart
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/flutter.png" alt="" class="item-icon">
+
+                            </div>
+                            Flutter
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/C++.png" alt="" class="item-icon">
+
+                            </div>
+                            C++
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/csharp.png" alt="" class="item-icon">
+
+                            </div>
+                            C#
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/database.png" alt="" class="item-icon">
+
+                            </div>
+                            DataBase
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="skill-item skill-item-3">
+                    <div class="item-title">Other</div>
+                    <div class="mini-item-container">
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/git.png" alt="" class="item-icon">
+
+                            </div>
+                            Git
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/github.svg" alt="" class="item-icon">
+
+                            </div>
+                            GitHub
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/vscode.png" alt="" class="item-icon">
+
+                            </div>
+                            VS Code
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/vs.png" alt="" class="item-icon">
+
+                            </div>
+                            VisualStudio
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/sql.png" alt="" class="item-icon">
+
+                            </div>
+                            SqlServer
+
+                        </div>
+                        <div class="mini-item">
+                            <div class="item-content">
+                                <img src="images/figma.png" alt="" class="item-icon">
+
+                            </div>
+                            Figma
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            </div>
+
+            </div>
+        </section>
+        <!--=============== SERVICES ===============-->
+        <section class="services section" id="services">
+            <h2 class="section-title">My Awesome Services</h2>
+            <p class="section-description"> I blend visual design with frontend engineering to create delightful,
+                brand-aligned interfaces. I also implement robust backend integrations and APIs so designs work
+                beautifully and reliably in the real world.</p>
+            <div class="service-container container grid">
+                <div class="service-item">
+                    <i class="uil uil-rss-interface services-icon"></i>
+                    <h3 class="service-title">Business Strategy</h3>
+                    <p class="service-description">I throw myself down among the tall grass by the stream as i lie close
+                        to the earth </p>
+                </div>
+                <div class="service-item">
+                    <i class="uil uil-layer-group services-icon"></i>
+                    <h3 class="service-title">Website Devlopment</h3>
+                    <p class="service-description">I throw myself down among the tall grass by the stream as i lie close
+                        to the earth </p>
+                </div>
+                <div class="service-item">
+                    <i class="uil uil-users-alt services-icon"></i>
+                    <h3 class="service-title">Marketing & Reporting</h3>
+                    <p class="service-description">I throw myself down among the tall grass by the stream as i lie close
+                        to the earth </p>
+                </div>
+                <div class="service-item">
+                    <i class="uil uil-desktop services-icon"></i>
+                    <h3 class="service-title">Mobile Devlopment</h3>
+                    <p class="service-description">I throw myself down among the tall grass by the stream as i lie close
+                        to the earth </p>
+                </div>
+                <div class="service-item">
+                    <i class="uil uil-rss-interface services-icon"></i>
+                    <h3 class="service-title">Marketing & Reporting</h3>
+                    <p class="service-description">I throw myself down among the tall grass by the stream as i lie close
+                        to the earth </p>
+                </div>
+                <div class="service-item">
+                    <i class="uil uil-users-alt services-icon"></i>
+                    <h3 class="service-title">Mobile DevlopmentY</h3>
+                    <p class="service-description">I throw myself down among the tall grass by the stream as i lie close
+                        to the earth </p>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== PORTFOLIO ===============-->
+        <section class="portfolio section section-background" id="portfolio">
+            <h2 class="section-title">My Latest Projects</h2>
+            <p class="section-description"> I blend visual design with frontend engineering to create delightful,
+                brand-aligned interfaces. I also implement robust backend integrations and APIs so designs work
+                beautifully and reliably in the real world.</p>
+
+            <div class="portfolio-container container grid">
+                <div class="portfolio-item">
+                    <img src="images/befit.png" alt="" class="portfolio-img">
+                    <div class="portfolio-data">
+                        <!-- <p class="portfolio-subtitle">Devlopment</p> -->
+                        <h3 class="portfolio-title">BeFit</h3>
+                        <p class="portfolio-description">create delightful,
+                            brand-aligned interfaces</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/foodi.png" alt="" class="portfolio-img">
+                    <div class="portfolio-data">
+                        <!-- <p class="portfolio-subtitle">Devlopment</p> -->
+                        <h3 class="portfolio-title">Foodi</h3>
+                        <p class="portfolio-description">create delightful,
+                            brand-aligned interfaces</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/shose.png" alt="" class="portfolio-img">
+                    <div class="portfolio-data">
+                        <!-- <p class="portfolio-subtitle">Devlopment</p> -->
+                        <h3 class="portfolio-title">Shose-X</h3>
+                        <p class="portfolio-description">create delightful,
+                            brand-aligned interfaces</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/fashion.png" alt="" class="portfolio-img">
+                    <div class="portfolio-data">
+                        <!-- <p class="portfolio-subtitle">Devlopment</p> -->
+                        <h3 class="portfolio-title">Fashion</h3>
+                        <p class="portfolio-description">create delightful,
+                            brand-aligned interfaces</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/herPath.jpg" alt="" class="portfolio-img">
+                    <div class="portfolio-data">
+                        <!-- <p class="portfolio-subtitle">Devlopment</p> -->
+                        <h3 class="portfolio-title">HerPath</h3>
+                        <p class="portfolio-description">create delightful,
+                            brand-aligned interfaces</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/rafiq.jpg" alt="" class="portfolio-img">
+                    <div class="portfolio-data">
+                        <!-- <p class="portfolio-subtitle">Devlopment</p> -->
+                        <h3 class="portfolio-title">Rafiq</h3>
+                        <p class="portfolio-description">create delightful,
+                            brand-aligned interfaces</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <div class="contact-container container grid">
+                <div class="contact-content">
+                    <h2 class="section-title">Hire Me</h2>
+                    <p class="contact-description">
+                        I am available for freelance work contact me via phone :
+                        <a href="https://wa.me/201288944543?text=Thanks for reaching out."
+                            target="_blank">+201288944543</a> or email me :
+                        <a href="mailto:nkhalifa551@gmail.com">nkhalifa551@gmail.com</a>
+                    </p>
+                    <form class="contact--form" id="contact-form">
+                        <div class="contact-form-input">
+                            <input type="text" name="name" placeholder="Your Name *" class="contact-input"
+                                id="contact-name" />
+                        </div>
+                        <div class="contact-form-input">
+                            <input type="email" name="email" placeholder="Your e-mail" class="contact-input"
+                                id="contact-email" />
+                        </div>
+                        <div class="contact-form-input">
+                            <input type="text" name="subject" placeholder="Write a Subject" class="contact-input"
+                                id="contact-subject" />
+                        </div>
+                        <div class="contact-form-input">
+                            <textarea name="message" id="contact-message" class="contact-input textarea"
+                                placeholder="Your Message"></textarea>
+                        </div>
+                        <input type="submit" value="Submit" class="btn">
+                        <p class="error-message" id="error-message"></p>
+                    </form>
+                </div>
+                <!-- <img src="images/nada.png" alt="" class="contact-img"> -->
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer-container container grid">
+            <a href="index.html" class="logo">
+                <div class="tag">&lt;</div>
+                Nada
+                <div class="tag">/</div>
+                Khalifa
+                <div class="tag">&gt;</div>
+
+            </a>
+
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/nada.khalifa.31508/" target="_blank" class="footer-social-link">
+                    <i class="uil uil-facebook-f"></i>
+                </a>
+                <a href="https://x.com/NadaKha45443267" target="_blank" class="footer-social-link">
+                    <i class="uil uil-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nada-khalifa-75a487291" target="_blank" class="footer-social-link">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/nadakhalifa.24" target="_blank" class="footer-social-link">
+                    <i class="uil uil-instagram"></i>
+                </a>
+            </div>
+            <p class="footer-copyright">&copy; 2025. All rights deserved.</p>
+        </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scroll-up" id="scroll-up">
+        <i class="uil uil-angle-up scroll-up-icon"></i>
+    </a>
+
+    <!--=============== EMAIL JS ===============-->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="script.js"></script>
+</body>
+
+</html>
