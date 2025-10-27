@@ -102,7 +102,7 @@ link.addEventListener('click',linkAction)
 
 // ========> type cursor
 var typed = new Typed('#auto-type', {
-    strings: ['Frontend Developer .', ' BackendDeveloper .',' MobileDeveloper .'],
+    strings: ['Frontend Developer .', ' .NetBackend Developer .',' UI UX Designer.'],
     typeSpeed: 150,
     backSpeed : 150,
     looped : true
